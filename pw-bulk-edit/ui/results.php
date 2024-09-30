@@ -288,7 +288,7 @@ function pwbe_field( $product, $column, $hidden ) {
 			$select_options = PWBE_Select_Options::get();
 			if ( isset( $select_options[$field][$field_value] ) ) {
 				$display_value = htmlspecialchars( $select_options[$field][$field_value]['name'], ENT_QUOTES );
-				$field_value = htmlspecialchars( $field_value, ENT_QUOTES );
+				$field_value = is_null( $field_value ) ? '' : htmlspecialchars( $field_value, ENT_QUOTES );
 			} else {
 				$display_value = 'n/a';
 			}

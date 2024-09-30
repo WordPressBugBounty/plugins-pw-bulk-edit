@@ -5,7 +5,7 @@ Tags: woocommerce, bulk edit, products, prices, batch
 Requires at least: 4.5
 Tested up to: 6.6
 Requires PHP: 5.6
-Stable tag: 2.128
+Stable tag: 2.129
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -35,7 +35,7 @@ PW WooCommerce Bulk Edit is a powerful way to update your WooCommerce product ca
 > * Additional Filter options like "Is Empty" and "Is Not Empty"
 > * Save and load filters
 > * Use the power of Regular Expressions for searching and replacing text values
-> * Support for other plugins like WooCommerce Brands, YITH Multi Vendor, and Dokan Multi Vendor Marketplace!
+> * Support for other plugins like WooCommerce Brands, MultiVendorX, YITH Multi Vendor, and Dokan Multi Vendor Marketplace!
 
 **Your time is priceless**<br>
 Finally, no more tedious clicking through countless pages! Make changes to your products at the same time.
@@ -83,6 +83,9 @@ You're in control of your WooCommerce product catalog with the power of PW WooCo
 
 == Changelog ==
 
+= 2.129 =
+* Added MultiVendorX to the readme. Removed PHP 8 warning about null value.
+
 = 2.128 =
 * Improved how PWBE_MEMORY_LIMIT can be used to increase available memory when returning results. Confirmed compatibility with WooCommerce 9.3
 
@@ -110,16 +113,13 @@ You're in control of your WooCommerce product catalog with the power of PW WooCo
 = 2.120 =
 * Confirmed compatibility with WordPress 6.4
 
-= 2.119 =
-* Confirmed compatibility with WooCommerce 8.2
-
 = Previous versions =
 * See changelog.txt
 
 == Upgrade Notice ==
 
-= 2.128 =
-* Improved how PWBE_MEMORY_LIMIT can be used to increase available memory when returning results. Confirmed compatibility with WooCommerce 9.3
+= 2.129 =
+* Added MultiVendorX to the readme. Removed PHP 8 warning about null value.
 
 == Frequently Asked Questions ==
 
