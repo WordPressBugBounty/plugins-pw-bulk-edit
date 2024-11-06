@@ -3,9 +3,9 @@ Contributors: pimwick
 Donate link: https://paypal.me/pimwick
 Tags: woocommerce, bulk edit, products, prices, batch
 Requires at least: 4.5
-Tested up to: 6.6
+Tested up to: 6.7
 Requires PHP: 5.6
-Stable tag: 2.129
+Stable tag: 2.130
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -83,6 +83,9 @@ You're in control of your WooCommerce product catalog with the power of PW WooCo
 
 == Changelog ==
 
+= 2.130 =
+* Compatibility with WordPress 6.7 and WooCommerce 9.4.
+
 = 2.129 =
 * Added MultiVendorX to the readme. Removed PHP 8 warning about null value.
 
@@ -110,16 +113,13 @@ You're in control of your WooCommerce product catalog with the power of PW WooCo
 = 2.121 =
 * Fixed a bug when trying to bulk set number fields to a negative results in zero instead.
 
-= 2.120 =
-* Confirmed compatibility with WordPress 6.4
-
 = Previous versions =
 * See changelog.txt
 
 == Upgrade Notice ==
 
-= 2.129 =
-* Added MultiVendorX to the readme. Removed PHP 8 warning about null value.
+= 2.130 =
+* Compatibility with WordPress 6.7 and WooCommerce 9.4.
 
 == Frequently Asked Questions ==
 

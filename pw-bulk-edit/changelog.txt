@@ -1,3 +1,6 @@
+= 2.130 =
+* Compatibility with WordPress 6.7 and WooCommerce 9.4.
+
 = 2.129 =
 * Added MultiVendorX to the readme. Removed PHP 8 warning about null value.
 
