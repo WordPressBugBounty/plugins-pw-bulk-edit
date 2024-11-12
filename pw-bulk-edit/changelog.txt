@@ -1,3 +1,6 @@
+= 2.131 =
+* Changed hook for loading translations file to avoid warning in WordPress 6.7.
+
 = 2.130 =
 * Compatibility with WordPress 6.7 and WooCommerce 9.4.
 
