@@ -1,3 +1,6 @@
+= 2.133 =
+* Removed support for deprecated mysql extension. Confirmed compatibility with WooCommerce 9.8
+
 = 2.132 =
 * Load translation files in the plugins_loaded event rather than init.
 
