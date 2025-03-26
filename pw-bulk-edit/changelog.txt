@@ -1,3 +1,6 @@
+= 2.134 =
+* Compatibility with WordPress 6.8.
+
 = 2.133 =
 * Removed support for deprecated mysql extension. Confirmed compatibility with WooCommerce 9.8
 
