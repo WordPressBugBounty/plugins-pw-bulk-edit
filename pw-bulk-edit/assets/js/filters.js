@@ -6,7 +6,7 @@ jQuery(function() {
 
 	jQuery(".pwbe-begin-button").on('click', function() {
 		if (jQuery('#pwbe-dismiss-intro').prop('checked')) {
-			jQuery.post(ajaxurl, {'action': 'pwbe_options', 'option_name': 'pwbe_help_dismiss_intro', 'option_value': 'true'});
+            jQuery.post(ajaxurl, {'action': 'pwbe_options', 'option_name': 'pwbe_help_dismiss_intro', 'option_value': 'true', 'security': pwbe.nonces.options});
 		}
 
 		pwbeInit();
@@ -124,12 +124,12 @@ function pwbeInit() {
 	});
 
 	jQuery('#pwbe-filters-help-dismiss').on('click', function() {
-		jQuery.post(ajaxurl, {'action': 'pwbe_options', 'option_name': 'pwbe_help_minimize_filter_help', 'option_value': 'true'});
+        jQuery.post(ajaxurl, {'action': 'pwbe_options', 'option_name': 'pwbe_help_minimize_filter_help', 'option_value': 'true', 'security': pwbe.nonces.options});
 		jQuery('#pwbe-filters-help-container').css('display', 'none');
 	});
 
 	jQuery('#pwbe-help').on('click', function() {
-		jQuery.post(ajaxurl, {'action': 'pwbe_options', 'option_name': 'pwbe_help_minimize_filter_help', 'option_value': 'false'});
+        jQuery.post(ajaxurl, {'action': 'pwbe_options', 'option_name': 'pwbe_help_minimize_filter_help', 'option_value': 'false', 'security': pwbe.nonces.options});
 		jQuery('#pwbe-filters-help-container').css('display', 'inline-block');
 	});
 

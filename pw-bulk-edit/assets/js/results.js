@@ -468,7 +468,8 @@ function pwbeSearchResults() {
 
 		jQuery.post(ajaxurl, {
 			'action': 'pwbe_delete_view',
-			'name': viewName
+			'name': viewName,
+            'security': pwbe.nonces.delete_view
 		}, function(data) {
 			jQuery('.pwbe-results-table-header-td.pwbe-hidden-column').removeClass('pwbe-hidden-column');
 			jQuery('.pwbe-results-table-cell-td.pwbe-hidden-cell').removeClass('pwbe-hidden-cell');
@@ -607,6 +608,7 @@ function pwbeSaveCurrentView(viewName) {
 	jQuery.post(ajaxurl, {
 		'action': 'pwbe_save_view',
 		'name': viewName,
+        'security': pwbe.nonces.save_view,
 		'view_data': JSON.stringify( hiddenColumns )
 	}, function(data) {
 		if (jQuery('#pwbe-view option').filter(function() { return this.value == viewName; }).length == 0) {

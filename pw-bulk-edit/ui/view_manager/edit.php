@@ -46,7 +46,8 @@ if ( !defined( 'ABSPATH' ) ) {
 
 				jQuery.post(ajaxurl, {
 					'action': 'pwbe_delete_view',
-					'name': newViewName
+					'name': newViewName,
+                    'security': pwbe.nonces.delete_view
 				}, function(data) {
 					jQuery('#pwbe-view option').filter(function() { return this.value == oldViewName; }).remove();
 
