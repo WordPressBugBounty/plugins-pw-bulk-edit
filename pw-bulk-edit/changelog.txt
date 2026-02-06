@@ -1,3 +1,12 @@
+= 2.139 =
+* Allow negative number for product stock.
+
+= 2.138 =
+* Replaced deprecated set_stock with wc_update_product_stock.
+
+= 2.137 =
+* Compatibility with WordPress 6.9 and WooCommerce 10.4.
+
 = 2.136 =
 * Compatibility with WooCommerce 10.1.
 
