@@ -5,7 +5,7 @@ Tags: woocommerce, bulk edit, products, prices, batch
 Requires at least: 4.5
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.142
+Stable tag: 2.143
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -83,6 +83,9 @@ You're in control of your WooCommerce product catalog with the power of PW WooCo
 
 == Changelog ==
 
+= 2.143 =
+* Update to use Font Awesome Free 7.3.1.
+
 = 2.142 =
 * Confirmed compatibility with WordPress 7.1.
 
@@ -110,16 +113,13 @@ You're in control of your WooCommerce product catalog with the power of PW WooCo
 = 2.134 =
 * Compatibility with WordPress 6.8.
 
-= 2.133 =
-* Removed support for deprecated mysql extension. Confirmed compatibility with WooCommerce 9.8
-
 = Previous versions =
 * See changelog.txt
 
 == Upgrade Notice ==
 
-= 2.142 =
-* Confirmed compatibility with WordPress 7.1.
+= 2.143 =
+* Update to use Font Awesome Free 7.3.1.
 
 == Frequently Asked Questions ==
 
