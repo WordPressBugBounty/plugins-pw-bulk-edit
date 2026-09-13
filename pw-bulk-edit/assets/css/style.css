@@ -244,6 +244,16 @@
 	font-weight: bold;
 }
 
+/* Font Awesome 7 applies width/layout to .fa; contextMenu puts .fa on the whole menu item. */
+.pwbecontext-menu-item.fa {
+	display: list-item;
+	width: auto;
+	line-height: normal;
+	text-align: left;
+	font-family: "Proxima Nova", "Helvetica Neue", Arial, sans-serif;
+	font-weight: bold;
+}
+
 .pwbecontext-menu-separator {
 	padding: 0;
 	margin: 0.35em 0;

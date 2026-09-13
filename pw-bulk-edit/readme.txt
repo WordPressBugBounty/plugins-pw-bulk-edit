@@ -5,7 +5,7 @@ Tags: woocommerce, bulk edit, products, prices, batch
 Requires at least: 4.5
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.143
+Stable tag: 2.144
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -83,6 +83,9 @@ You're in control of your WooCommerce product catalog with the power of PW WooCo
 
 == Changelog ==
 
+= 2.144 =
+* CSS update for column menu.
+
 = 2.143 =
 * Update to use Font Awesome Free 7.3.1.
 
@@ -110,16 +113,13 @@ You're in control of your WooCommerce product catalog with the power of PW WooCo
 = 2.135 =
 * This version fixes a reported security issue with the plugin. It is recommended that all users upgrade to this latest version.
 
-= 2.134 =
-* Compatibility with WordPress 6.8.
-
 = Previous versions =
 * See changelog.txt
 
 == Upgrade Notice ==
 
-= 2.143 =
-* Update to use Font Awesome Free 7.3.1.
+= 2.144 =
+* CSS update for column menu.
 
 == Frequently Asked Questions ==
 
